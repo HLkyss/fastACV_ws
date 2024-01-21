@@ -2,11 +2,12 @@
 测试FastACVNet_plus的ros节点<br />
 尝试了一下在自己数据集上的效果，试了几个模型，感觉效果没那么稳定。<br />
 ROS工作空间：fastACV_ws<br />
+***
 来源：<br />
 源码：https://github.com/gangweiX/Fast-ACVNet<br />
 源码(tensorrt加速版)：https://github.com/pcb9382/StereoAlgorithms/tree/main<br />
 模型下载：https://github.com/PINTO0309/PINTO_model_zoo<br />
-
+***
 运行main_min.cpp和img_pub_960_384.cpp（将原数据集文件夹960×540的图片转换成960×384发布）测试，效果：<br />
 <img src="https://github.com/HLkyss/fastACV_ws/assets/69629475/f43bdff6-ae72-4e46-ad4f-da53e7e89c55" width="600"> <br />
 <img src="https://github.com/HLkyss/fastACV_ws/assets/69629475/f6278b42-004d-4e94-acd8-6ace493ad2b7" width="600"> <br />
